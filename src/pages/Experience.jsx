@@ -14,10 +14,9 @@ export default function Experience() {
                                                     technical expertise, I have gained excellent communication, organisation and interpersonal skills throughout my career to date.</p>
             <h1 className="skills--section--heading">Education</h1>
             <ul id="educationList" className="text-md">
-              <li>Digital Marketing Level 3 <b>(2020)</b></li>
-              <li>British Computer Society - Principles of Coding <b>(2019)</b></li>
-              <li>British Computer Society - Principles of Marketing <b>(2019)</b></li>
-              <li>Sound Engineering Extended Diploma <b>(2018)</b></li>
+              <li>Full-Stack Developer Coding Traineeship <b>(Jul 2024 - Feb 2025)</b></li>
+              <li>Digital Marketing Level 3 Apprenticeship <b>(Mar 2019 - Jun 2020)</b></li>
+              <li>Sound Engineering Extended Diploma <b>(Sep 2016 - Jul 2018)</b></li>
             </ul>
             <h1 className="skills--section--heading">Experience</h1>
             <div id="workExperience">

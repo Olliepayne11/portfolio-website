@@ -14,6 +14,7 @@ import node from '../assets/node-logo.png'
 import git from '../assets/git-logo.png'
 import github from '../assets/github-logo.png'
 import jest from '../assets/jest.png'
+import figma from '../assets/figma-logo.png'
 
 export default function Skills() {
     return (
@@ -86,6 +87,10 @@ export default function Skills() {
 
                 <div className="skills--section--img m-1">
                     <img src={jest} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={figma} alt="Framework Image"/>
                 </div>
 
             </div>
