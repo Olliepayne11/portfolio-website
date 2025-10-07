@@ -1,6 +1,6 @@
-import { Link } from 'react-scroll'
-import gazetteer from '../assets/Gazetteer-Screenshot.jpg'
+import gazetteer from '../assets/Gazetteer-Screenshot.png'
 import companyDirectory from '../assets/CompanyDirectory-Screenshot.png'
+import communityCompass from '../assets/community-compass-screenshot.png'
 
 export default function Portfolio() {
     return (
@@ -17,6 +17,26 @@ export default function Portfolio() {
                 </div>
             </div>
             <div className="portfolio--section--container">
+                <div className="portfolio--section--card">
+                    <div className="portfolio--section--img">
+                        <a href="https://communitycompass.net" target="_blank"><img id="communityCompass-image" className="rounded" src={communityCompass} alt="Project 3 Image"/></a>
+                    </div>
+                    <div className="portfolio--section--card--content">
+                        <div>
+                            <h3 className="portfolio--section--title">Community Compass</h3>
+                            <br></br>
+                            <p className="text-md"><b>The Community Compass</b> application helps people within Parish Councils in the UK to find local support (Organisations and Events), relating to a variety of needs. These include: Mental Health, Debt, Housing, Finances, Youth Work, etc.</p>
+                            <br></br>
+                            <p className="text-md">The tech stack I utilised for this application:</p>
+                            <ul id="projectList" className="text-md">
+                                <li id="projectListItem"><b>P</b>ostgreSQL</li>
+                                <li id="projectListItem"><b>E</b>xpress</li>
+                                <li id="projectListItem"><b>R</b>eact</li>
+                                <li id="projectListItem"><b>N</b>ode</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div className="portfolio--section--card">
                     <div className="portfolio--section--img">
                         <a href="https://gazetteerapp.oliverrpayne.co.uk/" target="_blank"><img id="gazetteer-image" className="rounded" src={gazetteer} alt="Project 1 Image"/></a>
@@ -38,7 +58,7 @@ export default function Portfolio() {
                 </div>
                 <div className="portfolio--section--card">
                     <div className="portfolio--section--img">
-                        <a href="https://companydirectory.oliverrpayne.co.uk/" target="_blank"><img id="gazetteer-image" className="rounded" src={companyDirectory} alt="Project 2 Image"/></a>
+                        <a href="https://companydirectory.oliverrpayne.co.uk/" target="_blank"><img id="companyPortfolio-image" className="rounded" src={companyDirectory} alt="Project 2 Image"/></a>
                     </div>
                     <div className="portfolio--section--card--content">
                         <div>

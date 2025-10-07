@@ -310,50 +310,17 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
-  .skills--section--card {
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    flex: 1 0 0;
-    border-radius: 10.6px;
-    background: var(--bg-shade);
-    min-height: 250px;
-    height: 100%;
-  }
-
-  .skills--section--card--framework {
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    flex: 1 0 0;
-    border-radius: 10.6px;
-    background: var(--silver);
-    min-height: 250px;
-    height: 100%;
-  }
-
   .skills--section--img {
+    height: 18dvh;
     display: flex;
-    padding: 13.3px;
     justify-content: center;
     align-items: center;
-    gap: 13.3px;
-    border-radius: 10.6px;
-    background: #fff;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
   }
-  .skills--section--card--content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    align-self: stretch;
+  .skills--section--img img {
+    width: auto;
+    height: 9dvh;
   }
   .skills--section--title {
     color: var(--heading-color);
@@ -601,9 +568,6 @@ body {
     .skills--section--container {
       gap: 16px;
     }
-    .skills--section--card {
-      gap: 28px;
-    }
     .skills--section--card--content {
       gap: 20px;
     }
@@ -651,7 +615,11 @@ body {
     .skills--section--container,
     .footer--content--container {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
+    }
+    .skills--section--img img {
+      width: auto;
+      height: 8dvh;
     }
     .footer--image--container {
       margin-left: -70px;
@@ -907,7 +875,11 @@ body {
     .skills--section--container,
     .footer--content--container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .skills--section--img img {
+      width: auto;
+      height: 9dvh;
     }
     .footer--image--container {
       margin-left: -70px;
@@ -1064,6 +1036,17 @@ body {
     }
     .divider {
       margin: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .skills--section--container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills--section--img img {
+      width: auto;
+      height: 7dvh;
     }
   }
   

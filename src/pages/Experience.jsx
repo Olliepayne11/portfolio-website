@@ -8,11 +8,10 @@ export default function Experience() {
           <div className="hero--section--content">
             <p className="section--title">Experience</p>
             <h1 className="skills--section--heading">Summary</h1>
-            <p id="summaryText" className="text-lg">Coming from a strong background as an Executive for various job roles, I am now looking to re-establish myself as a developer. 
-                                                    Programming is an area that I have always been interested in and I am now taking the opportunity to explore it as a serious career. 
-                                                    To facilitate this change, I recently graduated from a coding Traineeship as a full stack developer including completing 2 real-world projects successfully to specification using a wide range of programming languages. 
-                                                    Throughout my career to date, I have gained excellent communication, organisation and interpersonal skills, which I hope to apply alongside my technical skills in a new and challenging role in development. 
-                                                    I am eager to gain commercial experience in the industry as I see myself working as a developer for the long term.</p>
+            <p id="summaryText" className="text-lg">Creative, proactive and hard-working Full-Stack Developer with over a year’s experience in the field. Highly skilled in HTML, CSS,
+                                                    JavaScript, TypeScript, React, Node, PHP, SQL and Bootstrap. Passionate about building web applications to help solve real-world
+                                                    problems, from developing websites for local communities to building creative solutions for industry-leading clients. Alongside my
+                                                    technical expertise, I have gained excellent communication, organisation and interpersonal skills throughout my career to date.</p>
             <h1 className="skills--section--heading">Education</h1>
             <ul id="educationList" className="text-md">
               <li>Digital Marketing Level 3 <b>(2020)</b></li>
@@ -23,19 +22,27 @@ export default function Experience() {
             <h1 className="skills--section--heading">Experience</h1>
             <div id="workExperience">
               <div className="workExperienceDiv m-2">
-                <p className="text-lg">The Specialist Works - Senior AV/AV Executive <b>(2021-2024)</b></p>
+                <p className="text-lg">ArtBot - Junior Creative Developer <b>(Jul 2025 - Present)</b></p>
                 <ul className="workExperienceList text-md">
-                  <li>Responsible for the AV Planning & Buying across a range of UK and International clients</li>
-                  <li>Presented AV plans and PCA’s to clients in both F2F & Online settings</li>
-                  <li>Line manager to one of the Junior AV Executives, ensuring that they have the training available to build their knowledge, as well as providing support and guidance</li>
+                  <li>Develop and maintain creative templates for a range of industry-leading clients (Volkswagen, Porsche, Audi, British Airways, John
+Lewis, Currys, etc.)</li>
+                  <li>Contribute to back-end logic tasks using Apps Script to streamline the deployment of client advertisements based on dynamic
+data, such as weather conditions</li>
+                  <li>Collaborate alongside senior developers to gain industry knowledge and understand coding best practices</li>
+                  <li>Partner with the Design and Accounts teams to deliver client campaigns to the highest standard</li>
+                  <li>Thrive in a fast-paced environment, taking on a variety of technical tasks across multiple clients</li>
                 </ul>
               </div>
               <div className="workExperienceDiv m-2">
-                <p className="text-lg">Publicis Media - Investment Executive <b>(2020-2021)</b></p>
+                <p className="text-lg">Community Compass - Freelance Web Developer <b>(May 2025 - Jul 2025)</b></p>
                 <ul className="workExperienceList text-md">
-                  <li>Sole responsibility for the promotion of P&G products on ITV (Scotland and Northern Ireland), Channel 4, Talking Pictures and Eurosport</li>
-                  <li>Experience advertising on digital platforms for the Haircare brands within P&G</li>
-                  <li>Skilled with platforms/tools such as: Mediaocean, Flashtalking, MOAT, Nielsen, Jira, Telmar</li>
+                  <li>Worked alongside a Not-for-Profit CEO to help develop a web application which allows users within parish councils across the
+UK to find local services and events.</li>
+                  <li>The application was built using the PERN stack (PostgreSQL, Express, React, Node). By using this stack, I could run spatial queries
+directly to the database, returning the relevant parish council for coordinates passed through.</li>
+                  <li>Attended bi-weekly meetings with the CEO to discuss next steps for the application.</li>
+                  <li>Developed the application to a stage where the CEO could successfully showcase it to parish councilors, enabling them to see
+an initial version of the app before they sign up.</li>
                 </ul>
               </div>
             </div>

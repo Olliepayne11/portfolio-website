@@ -12,7 +12,7 @@ export default function AboutMe() {
             <p className="section--title">Profile</p>
             <h1 className="skills--section--heading">About Me</h1>
             <p className="hero--section-description">
-                I am a Full-Stack Developer from London, currently enchancing my skills with IT Career Switch to help achieve my goal of working full-time within the industry.
+                I am a Full-Stack Developer from London, currently working as a Junior Creative Developer at ArtBot, where i'm building my experience within the industry.
             </p>
             <p className="hero--section-description">
                 I find great joy in the creative and problem-solving elements of coding, using my expertise to develop a range of applications. 

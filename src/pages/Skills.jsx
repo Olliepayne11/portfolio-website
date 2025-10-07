@@ -1,126 +1,93 @@
-import html from '../assets/HTML-logo.jpg'
-import css from '../assets/css-logo.jpg'
-import javascript from '../assets/javascript-logo.jpg'
-import php from '../assets/PHP-logo.jpg'
-import java from '../assets/java-logo.jpg'
-import python from '../assets/python-logo.jpg'
-import csharp from '../assets/csharp-logo.jpg'
-import sql from '../assets/sql-logo.jpg'
-
-import react from '../assets/react-logo.jpg'
-import redux from '../assets/redux-icon.jpg'
-import jquery from '../assets/jquery-logo.webp'
-import bootstrap from '../assets/bootstrap-logo.jpg'
+import html from '../assets/html5.png'
+import css from '../assets/css3.png'
+import javascript from '../assets/javascript.png'
+import php from '../assets/php.png'
+import python from '../assets/python.png'
+import sql from '../assets/sql.png'
+import react from '../assets/react.png'
+import jquery from '../assets/jquery.png'
+import typescript from '../assets/typescript.png'
+import sass from '../assets/sass.png'
+import bootstrap from '../assets/bootstrap.png'
+import tailwind from '../assets/tailwind.png'
+import node from '../assets/node-logo.png'
+import git from '../assets/git-logo.png'
+import github from '../assets/github-logo.png'
+import jest from '../assets/jest.png'
 
 export default function Skills() {
     return (
         <section className="skills--section" id="skills">
             <div className="portfolio--container">
                 <p className="section--title">Skills</p>
-                <h1 className="skills--section--heading">Languages & Frameworks</h1>
+                <h1 className="skills--section--heading">Tech Stack</h1>
             </div>
             <div className="skills--section--container">
 
-                    {/* Languages Below */}
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={html} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">HTML</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={css} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">CSS</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={javascript} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">Javascript</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={php} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">PHP</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={java} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">Java</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={python} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">Python</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={csharp} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">C#</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card">
-                        <div className="skills--section--img">
-                            <img src={sql} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">SQL</h3>
-                        </div>
-                    </div>
+                <div className="skills--section--img m-1">
+                    <img src={html} alt="Language Image"/>
+                </div>
 
-                    {/* Frameworks Below */}
+                <div className="skills--section--img m-1">
+                    <img src={css} alt="Language Image"/>
+                </div>
 
-                    <div className="skills--section--card--framework">
-                        <div className="skills--section--img">
-                            <img src={react} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">React</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card--framework">
-                        <div className="skills--section--img">
-                            <img src={redux} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">Redux</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card--framework">
-                        <div className="skills--section--img">
-                            <img src={jquery} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">jQuery</h3>
-                        </div>
-                    </div>
-                    <div className="skills--section--card--framework">
-                        <div className="skills--section--img">
-                            <img src={bootstrap} alt="Product Chain" width="75"/>
-                        </div>
-                        <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">Bootstrap</h3>
-                        </div>
-                    </div>
+                <div className="skills--section--img m-1">
+                    <img src={javascript} alt="Language Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={typescript} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={react} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={node} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={php} alt="Language Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={python} alt="Language Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={sql} alt="Language Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={jquery} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={bootstrap} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={tailwind} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={sass} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={git} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={github} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={jest} alt="Framework Image"/>
+                </div>
+
             </div>
         </section>
     );

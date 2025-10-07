@@ -12,7 +12,14 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div className="footer--image--container">
-          <img src={logo} alt="Website Logo" width="50"/>
+          <Link to="heroSection"
+                offset={-70}
+                duration={500}
+                spy={true}
+                smooth={true}
+                className="navbar--content">
+            <img src={logo} alt="Website Logo" width="50"/>
+          </Link>
         </div>
         <div className="footer--items">
             <a href="https://github.com/Olliepayne11" target="_blank"><img src={github} alt="Github Logo" width="30"/></a>
