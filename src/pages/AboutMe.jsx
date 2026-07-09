@@ -12,11 +12,7 @@ export default function AboutMe() {
             <p className="section--title">Profile</p>
             <h1 className="skills--section--heading">About Me</h1>
             <p className="hero--section-description">
-                I am a Full-Stack Developer from London, currently working as a Junior Creative Developer at ArtBot, where i'm building my experience within the industry.
-            </p>
-            <p className="hero--section-description">
-                I find great joy in the creative and problem-solving elements of coding, using my expertise to develop a range of applications. 
-                Please see the portfolio section below to view the range of applications I have created.
+                I'm a Full-Stack Developer based in London, currently working as a Junior Creative Developer at ArtBot. While I enjoy working across the full development stack, my primary focus is front-end development, where I create responsive, accessible, and intuitive user experiences.
             </p>
           </div>
         </div>

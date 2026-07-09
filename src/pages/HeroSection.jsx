@@ -7,14 +7,15 @@ export default function HeroSection() {
         <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p className="section--title">I'm Ollie,</p>
+                    <p className="section--title">Hi, I'm Ollie</p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">Full Stack</span>{" "}
-                        <span className="hero--section--title--dark">Developer</span>{" "}
+                        <span className="hero--section--title--color">Full-Stack Developer</span>{" "}
                     </h1>
+
                     <p className="hero--section-description">
-                        Welcome to my page
+                        I build modern, responsive web applications to solve real-world solutions.
                     </p>
+
                     <Link
                         spy={true}
                         smooth={true}

@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <Ripple customLoading={loading} color={'#00CEC8'} background="#050A44"/>
+      <Ripple customLoading={loading} color={'#00FFFF'} background="#0F172A"/>
       <Router>
         <div>
           <NavBar />
