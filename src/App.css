@@ -16,17 +16,17 @@ body {
     margin: 0;
   }
   :root {
-    --primary: #3D52A0;
-    --heading-color: #050A44;
-    --bg-shade: #EDE8F5;
-    --bg-shade-secondary: #fcfaff;
-    --github: #e62872;
-    --darkblue: #050A44;
-    --black: #000000;
-    --white: #ffffff;
-    --silver: #ADBBDA;
-    --dark-grey: #8697C4;
-    --lightblue-green: #00CEC8;
+      --primary: #2563EB;            /* Modern blue */
+      --heading-color: #0F172A;      /* Almost black */
+      --bg-shade: #F8FAFC;           /* Light grey */
+      --bg-shade-secondary: #FFFFFF; /* White sections */
+      --github: #111827;             /* Dark instead of pink */
+      --darkblue: #0F172A;
+      --black: #111827;
+      --white: #FFFFFF;
+      --silver: #CBD5E1;
+      --dark-grey: #64748B;
+      --lightblue-green: #00FFFF;
   }
   .btn {
     font-family: "Roboto";
@@ -51,9 +51,7 @@ body {
     -o-transition: background-color 0.5s;
   }
   .btn-outline-primary {
-    color: var(--primary);
-    background-color: var(--lightblue-green);
-    border: 1px solid var(--darkblue);
+    color: var(--white);
   }
   .btn-outline-primary:hover {
     color: var(--lightblue-green);
@@ -62,7 +60,7 @@ body {
   }
   .btn-primary {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--darkblue);
     border: 1px solid var(--bg-shade);
   }
   .btn-primary:hover {
@@ -87,7 +85,7 @@ body {
   .btn-contact {
     color: var(--darkblue);
     background-color: var(--lightblue-green);
-    border: var(--white);
+    border: 1px solid var(--darkblue);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,6 +97,7 @@ body {
   .btn-contact:hover {
     color: var(--lightblue-green);
     background-color: var(--darkblue);
+    border: 1px solid var(--lightblue-green);
   }
   /* Global CSS Ends */
   /* Main Headings */
@@ -176,6 +175,8 @@ body {
     align-items: center;
     padding: 15px 85.333px;
     background: var(--darkblue);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--darkblue);
     box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -212,12 +213,14 @@ body {
     font-weight: 400;
     line-height: 24px;
     cursor: pointer;
+    text-decoration: none;
   }
   .navbar--active-content {
-    color: #00CEC8;
+    color: var(--lightblue-green);
   }
   .navbar--active-content-contact {
-    color: var(--darkblue);
+    color: var(--lightblue-green);
+    text-decoration: none;
   }
   #contactMenu {
     display: none;
@@ -261,7 +264,7 @@ body {
     justify-content: center;
   }
   .hero--section--title--color {
-    color: var(--primary);
+    color: var(--darkblue);
   }
   .hero--section--title--dark {
     color: var(--darkblue);
@@ -283,7 +286,7 @@ body {
     max-width: 500px;
     height: 60%;
     border-radius: 50%;
-    border: 5px solid var(--primary);
+    border: 5px solid var(--darkblue);
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   }
   /* Hero Section Style Ends */
@@ -300,7 +303,7 @@ body {
     text-align: center;
   }
   .skills--section--heading {
-    color: var(--primary);
+    color: var(--darkblue);
     font-size: 64px;
     font-weight: 700;
     line-height: 77px;
@@ -310,7 +313,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
   .skills--section--img {
     height: 18dvh;
@@ -402,7 +405,7 @@ body {
     height: 100%;
     min-width: 200px;
     max-width: 500px;
-    border: solid 4px var(--primary);
+    border: solid 4px var(--darkblue);
   }
   .portfolio--section--card {
     display: flex;
@@ -471,7 +474,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: solid 5px var(--primary);
+    border: solid 5px var(--darkblue);
     border-radius: 12px;
     padding: 50px;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -615,7 +618,7 @@ body {
     .skills--section--container,
     .footer--content--container {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(7, 1fr);
     }
     .skills--section--img img {
       width: auto;

@@ -2,8 +2,6 @@ import html from '../assets/html5.png'
 import css from '../assets/css3.png'
 import javascript from '../assets/javascript.png'
 import php from '../assets/php.png'
-import python from '../assets/python.png'
-import sql from '../assets/sql.png'
 import react from '../assets/react.png'
 import jquery from '../assets/jquery.png'
 import typescript from '../assets/typescript.png'
@@ -15,6 +13,10 @@ import git from '../assets/git-logo.png'
 import github from '../assets/github-logo.png'
 import jest from '../assets/jest.png'
 import figma from '../assets/figma-logo.png'
+import express from '../assets/express.png'
+import postgresql from '../assets/postgresql.png'
+import mysql from '../assets/mysql.png'
+import mongodb from '../assets/mongodb.png'
 
 export default function Skills() {
     return (
@@ -50,19 +52,23 @@ export default function Skills() {
                 </div>
 
                 <div className="skills--section--img m-1">
+                    <img src={express} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
                     <img src={php} alt="Language Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={python} alt="Language Image"/>
+                    <img src={postgresql} alt="Framework Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={sql} alt="Language Image"/>
+                    <img src={mysql} alt="Framework Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={jquery} alt="Framework Image"/>
+                    <img src={mongodb} alt="Framework Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
@@ -71,6 +77,10 @@ export default function Skills() {
 
                 <div className="skills--section--img m-1">
                     <img src={tailwind} alt="Framework Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={jquery} alt="Framework Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">

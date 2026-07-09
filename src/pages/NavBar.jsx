@@ -148,7 +148,7 @@ export default function Navbar() {
         offset={-70}
         duration={500}
         to="contact"
-        className="btn btn-outline-primary"
+        className="navbar--content"
       >
         Contact Me
       </Link>

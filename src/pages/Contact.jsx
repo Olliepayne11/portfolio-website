@@ -24,10 +24,10 @@ export default function Contact() {
           title: "Success!",
           text: "Message has been sent",
           icon: "success",
-          iconColor: "#00CEC8",
-          confirmButtonColor: "#00CEC8",
+          iconColor: "#00FFFF",
+          confirmButtonColor: "#0F172A",
           color: 'white',
-          background: '#050A44'
+          background: '#0F172A'
         });
       } else {
         console.log("Error", data);
