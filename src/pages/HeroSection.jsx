@@ -9,11 +9,11 @@ export default function HeroSection() {
                 <div className="hero--section--content">
                     <p className="section--title">Hi, I'm Ollie</p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">Full-Stack Developer</span>{" "}
+                        <span className="hero--section--title--color">Front-End Developer</span>{" "}
                     </h1>
 
                     <p className="hero--section-description">
-                        I build modern, responsive web applications to solve real-world solutions.
+                        I build responsive, interactive digital experiences and web applications.
                     </p>
 
                     <Link

@@ -8,13 +8,13 @@ export default function Experience() {
           <div className="hero--section--content">
             <p className="section--title">Experience</p>
             <h1 className="skills--section--heading">Summary</h1>
-            <p id="summaryText" className="text-lg">Frontend-focused Full-Stack Developer with over one year of commercial experience developing interactive web solutions and applications. Experienced with HTML5, CSS3, JavaScript, TypeScript, React, Node.js, PHP, and SQL. Passionate about creating web applications that solve real-world problems. Brings strong communication, organisation, and interpersonal skills developed through working with clients, designers, and cross-functional teams.</p>
+            <p id="summaryText" className="text-lg">Front-End Developer with over one year of commercial experience developing responsive, interactive digital experiences and web applications. Experienced with HTML5, CSS3, JavaScript, TypeScript, React, and Tailwind CSS. Passionate about building web applications and digital experiences that address user needs. Brings strong communication, organisation, and interpersonal skills developed through working with clients, designers, and cross-functional teams.</p>
             <h1 className="skills--section--heading">Experience</h1>
             <div id="workExperience">
               <div className="workExperienceDiv m-2">
                 <p className="text-lg">ArtBot - Junior Creative Developer <b>(Jul 2025 - Present)</b></p>
                 <ul className="workExperienceList text-md">
-                  <li>Develop and maintain creative templates for brands such as British Airways, Volkswagen, Porsche, Harley-Davidson, and John Lewis. Build the templates with HTML5, CSS3 & JavaScript, ensuring responsiveness across desktop and mobile devices.</li>
+                  <li>Develop and maintain creative advertising templates for brands such as British Airways, Volkswagen, Porsche, Harley-Davidson, and John Lewis. Build the templates with HTML5, CSS3 & JavaScript, ensuring responsiveness across desktop and mobile devices.</li>
                   <li>Implement interactive functionality for the templates by manipulating the DOM with JavaScript to make the templates dynamic.</li>
                   <li>Use Git for version control and collaborate with developers on shared code repositories.</li>
                   <li>Debug and optimise frontend code using browser DevTools, technical documentation, and problem-solving techniques to resolve issues.</li>
@@ -37,7 +37,7 @@ export default function Experience() {
               <li>Digital Marketing Level 3 Apprenticeship <b>(Mar 2019 - Jun 2020)</b></li>
               <li>Sound Engineering Extended Diploma <b>(Sep 2016 - Jul 2018)</b></li>
             </ul> */}
-            <a className="text-decoration-none" href="./OliverPayneCV.pdf" download><button className="btn btn-contact">Download CV</button></a>
+            <a className="text-decoration-none" href="./Oliver Payne - CV.pdf" download><button className="btn btn-contact">Download CV</button></a>
           </div>
         </div>
         <div id="cvIcon" className="about--section--img">
