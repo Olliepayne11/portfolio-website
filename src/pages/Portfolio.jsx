@@ -70,7 +70,7 @@ export default function Portfolio() {
                                 <li id="projectListItem"><b>HTML & CSS (Bootstrap 5 Framework)</b></li>
                                 <li id="projectListItem"><b>Javascript (AJAX, jQuery)</b></li>
                                 <li id="projectListItem"><b>PHP</b></li>
-                                <li id="projectListItem"><b>SQL</b></li>
+                                <li id="projectListItem"><b>MySQL</b></li>
                             </ul>
                         </div>
                     </div>
