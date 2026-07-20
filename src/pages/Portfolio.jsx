@@ -25,14 +25,14 @@ export default function Portfolio() {
                         <div>
                             <h3 className="portfolio--section--title">Community Compass</h3>
                             <br></br>
-                            <p className="text-md"><b>The Community Compass</b> application helps people within Parish Councils in the UK to find local support (Organisations and Events), relating to a variety of needs. These include: Mental Health, Debt, Housing, Finances, Youth Work, etc.</p>
+                            <p className="text-md"><b>Community Compass</b> helps people within Parish Councils in the UK to find local support (Organisations and Events), relating to a variety of needs. These include: Mental Health, Debt, Housing, Finances, Youth Work, etc.</p>
                             <br></br>
-                            <p className="text-md">The tech stack I utilised for this application:</p>
+                            <p className="text-md">Tech stack:</p>
                             <ul id="projectList" className="text-md">
                                 <li id="projectListItem"><b>P</b>ostgreSQL</li>
                                 <li id="projectListItem"><b>E</b>xpress</li>
                                 <li id="projectListItem"><b>R</b>eact</li>
-                                <li id="projectListItem"><b>N</b>ode</li>
+                                <li id="projectListItem"><b>N</b>ode.js</li>
                             </ul>
                         </div>
                     </div>
@@ -45,9 +45,8 @@ export default function Portfolio() {
                         <div>
                             <h3 className="portfolio--section--title">Gazetteer</h3>
                             <br></br>
-                            <p className="text-md"><b>Gazetteer</b> is a web app designed to work across mobile & desktop devices.
-                                                     The app allows users to choose any country, to discover relevant information, such as: <b>Weather Forecast, Local News, Population, Capital City, Airports, Earthquakes etc. </b></p><br></br>
-                            <p className="text-md">The tech stack I utilised for this application:</p>
+                            <p className="text-md"><b>Gazetteer</b> allows users to choose any country from a drop-down to discover relevant information, such as Weather Forecasts, Local News, Population, Capital City, Airports, Earthquakes, etc.</p><br></br>
+                            <p className="text-md">Tech stack:</p>
                             <ul id="projectList" className="text-md">
                                 <li id="projectListItem"><b>HTML & CSS (Bootstrap 5 Framework)</b></li>
                                 <li id="projectListItem"><b>Javascript (AJAX, jQuery, Leafletjs)</b></li>
@@ -64,10 +63,9 @@ export default function Portfolio() {
                         <div>
                             <h3 className="portfolio--section--title">Company Directory</h3>
                             <br></br>
-                            <p className="text-md"><b>Company Directory</b> is an application designed to allow users to manipulate a database, following the rules of CRUD operations.
-                                                      Information is displayed in the form of modals, to which the user can add, update, filter or remove data.</p>
+                            <p className="text-md"><b>Company Directory</b> allows users to manipulate a database using CRUD (Create, Read, Update, Delete) operations. Information is displayed as modals, where the user can add, update, filter, or remove data.</p>
                             <br></br>
-                            <p className="text-md">The tech stack I utilised for this application:</p>
+                            <p className="text-md">Tech stack:</p>
                             <ul id="projectList" className="text-md">
                                 <li id="projectListItem"><b>HTML & CSS (Bootstrap 5 Framework)</b></li>
                                 <li id="projectListItem"><b>Javascript (AJAX, jQuery)</b></li>

@@ -17,6 +17,9 @@ import express from '../assets/express.png'
 import postgresql from '../assets/postgresql.png'
 import mysql from '../assets/mysql.png'
 import mongodb from '../assets/mongodb.png'
+import supabase from '../assets/supabase.png'
+import stripe from '../assets/stripe.png'
+import render from '../assets/render.png'
 
 export default function Skills() {
     return (
@@ -28,79 +31,91 @@ export default function Skills() {
             <div className="skills--section--container">
 
                 <div className="skills--section--img m-1">
-                    <img src={html} alt="Language Image"/>
+                    <img src={react} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={css} alt="Language Image"/>
+                    <img src={typescript} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={javascript} alt="Language Image"/>
+                    <img src={javascript} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={typescript} alt="Framework Image"/>
+                    <img src={html} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={react} alt="Framework Image"/>
+                    <img src={css} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={node} alt="Framework Image"/>
+                    <img src={sass} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={express} alt="Framework Image"/>
+                    <img src={jquery} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={php} alt="Language Image"/>
+                    <img src={tailwind} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={postgresql} alt="Framework Image"/>
+                    <img src={bootstrap} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={mysql} alt="Framework Image"/>
+                    <img src={jest} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={mongodb} alt="Framework Image"/>
+                    <img src={node} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={bootstrap} alt="Framework Image"/>
+                    <img src={express} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={tailwind} alt="Framework Image"/>
+                    <img src={php} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={jquery} alt="Framework Image"/>
+                    <img src={postgresql} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={sass} alt="Framework Image"/>
+                    <img src={mysql} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={git} alt="Framework Image"/>
+                    <img src={mongodb} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={github} alt="Framework Image"/>
+                    <img src={git} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={jest} alt="Framework Image"/>
+                    <img src={github} alt="Skills Image"/>
                 </div>
 
                 <div className="skills--section--img m-1">
-                    <img src={figma} alt="Framework Image"/>
+                    <img src={figma} alt="Skills Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={supabase} alt="Skills Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={stripe} alt="Skills Image"/>
+                </div>
+
+                <div className="skills--section--img m-1">
+                    <img src={render} alt="Skills Image"/>
                 </div>
 
             </div>
